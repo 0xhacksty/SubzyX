@@ -1,0 +1,44 @@
+[
+  {
+    "service": "AWS S3",
+    "cname": ["s3.amazonaws.com", "s3-website", "amazonaws.com"],
+    "fingerprint": ["NoSuchBucket", "The specified bucket does not exist"],
+    "vulnerable": true
+  },
+  {
+    "service": "Heroku",
+    "cname": ["herokudns.com", "herokuapp.com"],
+    "fingerprint": ["No such app", "there is no app configured at that hostname"],
+    "vulnerable": true
+  },
+  {
+    "service": "GitHub Pages",
+    "cname": ["github.io"],
+    "fingerprint": ["There isn't a GitHub Pages site here"],
+    "vulnerable": true
+  },
+  {
+    "service": "Shopify",
+    "cname": ["myshopify.com"],
+    "fingerprint": ["Sorry, this shop is currently unavailable"],
+    "vulnerable": true
+  },
+  {
+    "service": "Fastly",
+    "cname": ["fastly.net"],
+    "fingerprint": ["Fastly error: unknown domain"],
+    "vulnerable": true
+  },
+  {
+    "service": "Pantheon",
+    "cname": ["pantheonsite.io"],
+    "fingerprint": ["The gods are wise"],
+    "vulnerable": true
+  },
+  {
+    "service": "Netlify",
+    "cname": ["netlify.app", "netlify.com"],
+    "fingerprint": ["Not Found - Request ID"],
+    "vulnerable": true
+  }
+]
