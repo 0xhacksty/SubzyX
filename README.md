@@ -104,4 +104,3 @@ Summary: total=120 confirmed=1 potential=4 safe=115 wildcard_dns=false
 
 - This tool assists security testing and triage; always manually validate before reporting critical findings.
 - Fingerprints can be extended by editing `fingerprints.json`.
-# SubTakerX
