@@ -1,6 +1,6 @@
-# SubzyX
+# SubTakerX
 
-SubzyX is a production-oriented Go CLI for identifying subdomain takeover risks by chaining:
+SubTakerX is a production-oriented Go CLI for identifying subdomain takeover risks by chaining:
 
 1. Subdomain enumeration (via `subfinder` binary)
 2. DNS resolution (`A`, `AAAA`, `CNAME` via `miekg/dns`)
